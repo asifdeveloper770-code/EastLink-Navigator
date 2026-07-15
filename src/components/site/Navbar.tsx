@@ -78,7 +78,7 @@ export function Navbar() {
         <div className="flex items-center gap-2">
           <Link
             to="/contact"
-            className="hidden items-center gap-2 rounded-full bg-gradient-navy px-4 py-2.5 text-sm font-bold text-white shadow-card transition-transform duration-200 hover:scale-[1.03] xl:inline-flex"
+            className="hidden items-center gap-2 rounded-full bg-gradient-gold px-4 py-2.5 text-sm font-bold text-white shadow-card transition-transform duration-200 hover:scale-[1.03] xl:inline-flex"
           >
             Get a Quote
           </Link>

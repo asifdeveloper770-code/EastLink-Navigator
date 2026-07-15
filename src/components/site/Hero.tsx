@@ -20,14 +20,14 @@ export function Hero() {
         <div className="max-w-2xl">
           <span className="animate-fade-up inline-flex items-center gap-2 rounded-full border border-gold/40 bg-gold/10 px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-gold-soft">
             <span className="h-1.5 w-1.5 animate-glow rounded-full bg-gold" />
-            USA · Eastern & Southern Africa
+            United States · Eastern & Southern Africa
           </span>
 
           <h1
             className="animate-fade-up mt-6 text-4xl font-extrabold leading-[1.05] text-white sm:text-5xl lg:text-6xl"
             style={{ animationDelay: "80ms" }}
           >
-            Connecting the USA to{" "}
+            Connecting the United States to{" "}
             <span className="text-shimmer-gold">Eastern &amp; Southern Africa</span>
           </h1>
 
@@ -35,9 +35,7 @@ export function Hero() {
             className="animate-fade-up mt-6 max-w-xl text-base leading-relaxed text-white/75 sm:text-lg"
             style={{ animationDelay: "160ms" }}
           >
-            EastLink US Logistics LLC — your trusted one-stop shipping solution for cargo,
-            shopping &amp; delivery. From U.S. products to personal shipments, we make it easy
-            to buy, ship, and receive goods across Africa.
+            EastLink US Logistics LLC is your trusted one-stop solution for cargo shipping, U.S. shopping, and door-to-door delivery across Eastern & Southern Africa.
           </p>
 
           <div
@@ -51,13 +49,7 @@ export function Hero() {
               Get Shipping Quote
               <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
             </Link>
-            <Link
-              to="/tracking"
-              className="inline-flex items-center gap-2 rounded-full border-2 border-white/40 px-6 py-3.5 text-sm font-bold text-white transition-all hover:scale-[1.04] hover:border-gold hover:bg-white/10"
-            >
-              <PackageSearch className="h-4 w-4" />
-              Track Shipment
-            </Link>
+
             <Link
               to="/shop"
               className="inline-flex items-center gap-2 rounded-full bg-navy px-6 py-3.5 text-sm font-bold text-white ring-1 ring-white/15 transition-all hover:scale-[1.04] hover:bg-navy-soft"
@@ -65,12 +57,19 @@ export function Hero() {
               <ShoppingBag className="h-4 w-4" />
               Shop From USA
             </Link>
+            <Link
+              to="/tracking"
+              className="inline-flex items-center gap-2 rounded-full border-2 border-white/40 px-6 py-3.5 text-sm font-bold text-white transition-all hover:scale-[1.04] hover:border-gold hover:bg-white/10"
+            >
+              <PackageSearch className="h-4 w-4" />
+              Track Shipment
+            </Link>
           </div>
 
           <dl className="animate-fade-up mt-12 grid max-w-lg grid-cols-3 gap-6" style={{ animationDelay: "320ms" }}>
             {[
               { k: "10+", v: "Countries served" },
-              { k: "100%", v: "Original US products" },
+              { k: "100%", v: "Authentic US products" },
               { k: "Door", v: "to-door delivery" },
             ].map((s) => (
               <div key={s.v}>

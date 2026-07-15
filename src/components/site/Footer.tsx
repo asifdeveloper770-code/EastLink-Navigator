@@ -10,10 +10,37 @@ export function Footer() {
         <div className="grid gap-10 md:grid-cols-[1.4fr_1fr_1fr]">
           <div>
             <BrandMark tone="light" />
-            <p className="mt-4 max-w-sm text-sm leading-relaxed text-white/60">
-              Your trusted one-stop shipping solution connecting the USA to Eastern &amp; Southern
-              Africa — cargo, shopping &amp; delivery made easy.
-            </p>
+            <div className="mt-4 max-w-md">
+              <p className="text-sm leading-relaxed text-white/65">
+                EastLink US Logistics LLC is your trusted one-stop shipping solution
+                connecting the United States to Eastern &amp; Southern Africa. From cargo
+                shipping and U.S. products shopping to freight forwarding and door-to-door
+                delivery, we make international logistics simple, reliable, and affordable.
+              </p>
+
+              <p className="mt-4 text-base font-semibold text-gold">
+                Your Trusted Gateway Between the United States &amp; Eastern &amp; Southern
+                Africa.
+              </p>
+
+              <div className="mt-5 flex flex-wrap gap-2">
+                {[
+                  "✈️ Air Cargo",
+                  "🚢 Sea Freight",
+                  "📦 Door-to-Door Delivery",
+                  "🛍️ Shop From the U.S.",
+                  "📱 Electronics Shipping",
+                  "🤝 Freight Forwarding",
+                ].map((service) => (
+                  <span
+                    key={service}
+                    className="rounded-full border border-gold/20 bg-white/5 px-3 py-1.5 text-xs font-medium text-white/80 backdrop-blur-sm transition-colors hover:border-gold/50 hover:text-gold"
+                  >
+                    {service}
+                  </span>
+                ))}
+              </div>
+            </div>
             <a
               href={WHATSAPP_URL}
               target="_blank"
@@ -55,7 +82,7 @@ export function Footer() {
           <p className="text-xs text-white/50">
             © {new Date().getFullYear()} EastLink US Logistics LLC. All rights reserved.
           </p>
-          <p className="text-xs text-white/50">USA to Eastern &amp; Southern Africa</p>
+          <p className="text-xs text-white/50">United States to Eastern &larr; &rarr;  Southern Africa</p>
         </div>
       </div>
     </footer>

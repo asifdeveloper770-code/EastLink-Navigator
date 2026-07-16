@@ -35,8 +35,7 @@ export function Hero() {
             className="animate-fade-up mt-6 max-w-xl text-base leading-relaxed text-white/75 sm:text-lg"
             style={{ animationDelay: "160ms" }}
           >
-            EastLink US Logistics LLC is your trusted one-stop solution for cargo shipping, U.S. shopping, and door-to-door delivery across Eastern & Southern Africa.
-          </p>
+EastLink US Logistics LLC is your trusted one-stop solution for shipping cargo, sourcing authentic U.S. products, assisting with U.S. shopping, and delivering seamlessly to your doorstep across Eastern & Southern Africa.          </p>
 
           <div
             className="animate-fade-up mt-9 flex flex-wrap gap-3"

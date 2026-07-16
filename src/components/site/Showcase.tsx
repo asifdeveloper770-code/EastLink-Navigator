@@ -5,7 +5,15 @@ import { SectionHeading } from "./SectionHeading";
 import { Reveal } from "./Reveal";
 
 const SHOWCASE: { img: string; w: number; h: number; title: string; desc: string }[] = [
+
   {
+    img: airFreight,
+    w: 1200,
+    h: 912,
+    title: "Air Freight",
+    desc: "Fast, secure express Air Freight departing regularly from the United States.",
+  },
+    {
     img: seaFreight,
     w: 1920,
     h: 1088,
@@ -13,17 +21,10 @@ const SHOWCASE: { img: string; w: number; h: number; title: string; desc: string
     desc: "Cost-effective ocean cargo for large shipments, inventory, and relocation loads.",
   },
   {
-    img: airFreight,
-    w: 1200,
-    h: 912,
-    title: "Air Freight",
-    desc: "Fast, secure express air cargo departing regularly from the United States.",
-  },
-  {
     img: delivery,
     w: 1200,
     h: 912,
-    title: "Door-to-Door",
+    title: "From the U.S to Your Door",
     desc: "Final-mile delivery handed directly to your door across Africa.",
   },
 ];
@@ -34,8 +35,8 @@ export function Showcase() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <SectionHeading
           eyebrow="How We Move Your Cargo"
-          title="Real operations, from port to your door"
-          subtitle="A connected network of sea, air, and ground logistics working as one seamless journey."
+          title="From Shopping to Shipping—Delivered to Your Door"
+          subtitle="Your Trusted Shipping Partner for Families • Businesses • Online Shoppers Across Eastern & Southern Africa"
         />
 
         <div className="mt-14 grid gap-6 md:grid-cols-3">

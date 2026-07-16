@@ -25,7 +25,7 @@ export function Footer() {
 
               <div className="mt-5 flex flex-wrap gap-2">
                 {[
-                  "✈️ Air Cargo",
+                  "✈️ Express Air Cargo",
                   "🚢 Sea Freight",
                   "📦 Door-to-Door Delivery",
                   "🛍️ Shop From the U.S.",

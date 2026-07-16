@@ -52,14 +52,14 @@ export function Hero() {
 
             <Link
               to="/shop"
-              className="inline-flex items-center gap-2 rounded-full bg-navy px-6 py-3.5 text-sm font-bold text-white ring-1 ring-white/15 transition-all hover:scale-[1.04] hover:bg-navy-soft"
+              className="inline-flex items-center gap-2 rounded-full bg-navy px-6 py-3.5 text-sm font-bold text-white ring-1 ring-white/15 transition-all border border-navy hover:scale-[1.04] hover:bg-navy-soft"
             >
               <ShoppingBag className="h-4 w-4" />
               Shop From USA
             </Link>
             <Link
               to="/tracking"
-              className="inline-flex items-center gap-2 rounded-full border-2 border-white/40 px-6 py-3.5 text-sm font-bold text-white transition-all hover:scale-[1.04] hover:border-gold hover:bg-white/10"
+              className="inline-flex items-center gap-2 rounded-full border-2 border-navy px-6 py-3.5 text-sm font-bold text-white transition-all hover:scale-[1.04] hover:border-gold hover:bg-white/10"
             >
               <PackageSearch className="h-4 w-4" />
               Track Shipment

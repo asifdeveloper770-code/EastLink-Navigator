@@ -7,7 +7,7 @@ import { Reveal } from "./Reveal";
 
 const STEPS: { icon: LucideIcon; title: string; desc: string; done: boolean; active?: boolean }[] = [
   { icon: Warehouse, title: "Received at USA Warehouse", desc: "Portland, Oregon · package logged & inspected", done: true },
-  { icon: Plane, title: "In Transit", desc: "Departed on express air cargo · en route to Africa", done: true, active: true },
+  { icon: Plane, title: "In Transit", desc: "Departed on express Air Freight · en route to Africa", done: true, active: true },
   { icon: MapPin, title: "Arrived in Africa", desc: "Regional clearance & sorting hub", done: false },
   { icon: PackageCheck, title: "Out for Delivery", desc: "Door-to-door delivery to your address", done: false },
 ];

@@ -7,7 +7,7 @@ const SERVICES: { icon: LucideIcon; title: string; desc: string }[] = [
   {
     icon: Plane,
     title: "Air Freight",
-    desc: "USA to Eastern & Southern Africa. Fast, secure air cargo for personal belongings, electronics, fashion, business, and commercial cargo.",
+    desc: "USA to Eastern & Southern Africa. Fast, secure Air Freight for personal belongings, electronics, fashion, business, and commercial cargo.",
   },
   {
     icon: Ship,

@@ -68,14 +68,48 @@ export function Footer() {
             <h4 className="text-sm font-bold uppercase tracking-widest text-gold">Get in touch</h4>
             <ul className="mt-4 space-y-3">
               <li className="flex items-center gap-2 text-sm text-white/65">
-                <Phone className="h-4 w-4 text-gold" /> +1 (503) 555-1234
+                <Phone className="h-4 w-4 text-gold" /> +1 (279)259-5148
               </li>
               <li className="flex items-center gap-2 text-sm text-white/65">
                 <Mail className="h-4 w-4 text-gold" /> info@eastlinklogistics.com
               </li>
-              <li className="text-sm text-white/65">Oregon · Washington · Tanzania</li>
+              <div>
+                <h4 className="text-sm font-bold uppercase tracking-widest text-gold">
+                  Our Offices
+                </h4>
+
+                <ul className="mt-4 space-y-5 text-sm text-white/65">
+                  <li>
+                    <p className="font-semibold text-white">Oregon Office</p>
+                    <p>Gresham, OR, USA</p>
+                    <div className="mt-1 flex items-center gap-2">
+                      <Phone className="h-4 w-4 text-gold" />
+                      <span>+1 (279) 259-5148</span>
+                    </div>
+                  </li>
+
+                  <li>
+                    <p className="font-semibold text-white">Washington State Office</p>
+                    <p>Covington, WA, USA</p>
+                    <div className="mt-1 flex items-center gap-2">
+                      <Phone className="h-4 w-4 text-gold" />
+                      <span>+1 (253) 592-3757</span>
+                    </div>
+                  </li>
+
+                  <li>
+                    <p className="font-semibold text-white">Tanzania Office</p>
+                    <p>Upanga, Dar es Salaam, Tanzania</p>
+                    <div className="mt-1 flex items-center gap-2">
+                      <Phone className="h-4 w-4 text-gold" />
+                      <span>+255 762 550 779</span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
             </ul>
           </div>
+
         </div>
 
         <div className="mt-12 flex flex-col items-center justify-between gap-3 border-t border-white/10 pt-6 sm:flex-row">

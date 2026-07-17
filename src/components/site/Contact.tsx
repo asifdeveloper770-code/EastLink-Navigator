@@ -6,8 +6,19 @@ import { Reveal } from "./Reveal";
 import { WHATSAPP_URL } from "./constants";
 
 const OFFICES = [
-  { region: "USA Offices", items: ["Oregon Office", "Washington State Office"] },
-  { region: "Africa Office", items: ["Tanzania Office"] },
+  {
+    region: "USA Offices",
+    items: [
+      "Oregon Office — Gresham, OR, USA",
+      "Washington State Office — Covington, WA, USA",
+    ],
+  },
+  {
+    region: "Africa Office",
+    items: [
+      "Tanzania Office — Upanga, Dar es Salaam, Tanzania",
+    ],
+  },
 ];
 
 const DESTINATIONS = [
@@ -74,7 +85,7 @@ export function Contact() {
                   <span className="text-sm font-bold text-navy">WhatsApp</span>
                 </a>
                 <a
-                  href="tel:+15035551234"
+                  href="tel:12792595148"
                   className="group flex flex-col items-center gap-2 rounded-2xl border border-border bg-card p-5 text-center shadow-card transition-all hover:-translate-y-1 hover:border-gold/60 hover:shadow-lift"
                 >
                   <span className="inline-flex h-11 w-11 items-center justify-center rounded-full bg-gold/15 text-navy transition-transform group-hover:scale-110">

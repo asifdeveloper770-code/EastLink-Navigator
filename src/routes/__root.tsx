@@ -14,7 +14,7 @@ import { reportLovableError } from "../lib/lovable-error-reporting";
 import { Toaster } from "sonner";
 import { Navbar } from "@/components/site/Navbar";
 import { Footer } from "@/components/site/Footer";
-import { FloatingChat } from "@/components/site/FloatingChat";
+// import { FloatingChat } from "@/components/site/FloatingChat";
 
 function NotFoundComponent() {
   return (

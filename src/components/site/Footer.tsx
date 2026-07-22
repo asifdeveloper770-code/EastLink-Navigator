@@ -116,7 +116,7 @@ export function Footer() {
           <p className="text-xs text-white/50">
             © {new Date().getFullYear()} EastLink US Logistics LLC. All rights reserved.
           </p>
-          <p className="text-xs text-white/50">United States to &larr; &rarr;  Eastern Southern Africa</p>
+          <p className="text-xs text-white/50">United States &larr; &rarr; Eastern & Southern Africa</p>
         </div>
       </div>
     </footer>

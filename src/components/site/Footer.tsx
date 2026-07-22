@@ -65,7 +65,7 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className="text-sm font-bold uppercase tracking-widest text-gold">Get in touch</h4>
+            <h4 className="text-sm font-bold uppercase tracking-widest text-gold">Contact Us</h4>
             <ul className="mt-4 space-y-3">
               <li className="flex items-center gap-2 text-sm text-white/65">
                 <Phone className="h-4 w-4 text-gold" /> +1 (279)259-5148

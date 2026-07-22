@@ -14,7 +14,7 @@ const OFFICES = [
     ],
   },
   {
-    region: "Africa Office",
+    region: " Regional Office (Eastern & Southern Africa)",
     items: [
       "Tanzania Office — Upanga, Dar es Salaam, Tanzania",
     ],
@@ -97,7 +97,7 @@ export function Contact() {
                   href="mailto:info@eastlinklogistics.com"
                   className="group flex flex-col items-center gap-2 rounded-2xl border border-border bg-card p-5 text-center shadow-card transition-all hover:-translate-y-1 hover:border-gold/60 hover:shadow-lift"
                 >
-                  <span className="inline-fle x h-11 w-11 items-center justify-center rounded-full bg-gold/15 text-navy transition-transform group-hover:scale-110">
+                  <span className="inline-flex h-11 w-11 items-center justify-center rounded-full bg-gold/15 text-navy transition-transform group-hover:scale-110">
                     <Mail className="h-5 w-5" />
                   </span>
                   <span className="text-sm font-bold text-navy">Email</span>

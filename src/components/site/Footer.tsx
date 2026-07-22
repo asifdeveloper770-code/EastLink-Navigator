@@ -2,8 +2,14 @@ import { MessageCircle, Phone, Mail } from "lucide-react";
 import { Link } from "@tanstack/react-router";
 import { BrandMark } from "./BrandMark";
 import { NAV_LINKS, WHATSAPP_URL } from "./constants";
+import { useState } from "react";
+import {  ChevronDown } from "lucide-react";
+
+
 
 export function Footer() {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <footer className="bg-navy-deep text-white">
       <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
@@ -27,10 +33,10 @@ export function Footer() {
                 {[
                   "✈️ Express Air Cargo",
                   "🚢 Sea Freight",
-                  "📦 Door-to-Door Delivery",
-                  "🛍️ Shop From the U.S.",
-                  "📱 Electronics Shipping",
+                  "🛍️ Shop For Me",
                   "🤝 Freight Forwarding",
+                  "📱 Fast & Reliable General Cargo & Electronics Shipping",
+                  "📦 Door-to-Door Delivery",
                 ].map((service) => (
                   <span
                     key={service}
@@ -64,51 +70,74 @@ export function Footer() {
             </ul>
           </div>
 
+
           <div>
-            <h4 className="text-sm font-bold uppercase tracking-widest text-gold">Contact Us</h4>
-            <ul className="mt-4 space-y-3">
-              <li className="flex items-center gap-2 text-sm text-white/65">
-                <Phone className="h-4 w-4 text-gold" /> +1 (279)259-5148
-              </li>
-              <li className="flex items-center gap-2 text-sm text-white/65">
-                <Mail className="h-4 w-4 text-gold" /> info@eastlinkuslogistics.com
-              </li>
-              <div>
-                <h4 className="text-sm font-bold uppercase tracking-widest text-gold">
-                  Our Offices
-                </h4>
+            {/* Clickable Header Button */}
+            <button
+              onClick={() => setIsOpen(!isOpen)}
+              className="flex items-center gap-2 text-sm font-bold uppercase tracking-widest text-gold transition-colors hover:text-gold/80"
+            >
+              <span>Contact Us</span>
+              <ChevronDown
+                className={`h-4 w-4 transition-transform duration-200 ${isOpen ? "rotate-180" : ""
+                  }`}
+              />
+            </button>
 
-                <ul className="mt-4 space-y-5 text-sm text-white/65">
-                  <li>
-                    <p className="font-semibold text-white">Oregon Office</p>
-                    <p>Gresham, OR, USA</p>
-                    <div className="mt-1 flex items-center gap-2">
-                      <Phone className="h-4 w-4 text-gold" />
-                      <span>+1 (279) 259-5148</span>
-                    </div>
+            {/* Expandable Content */}
+            {isOpen && (
+              <div className="mt-4 space-y-6">
+                {/* Main Contact Info */}
+                <ul className="space-y-3 text-sm text-white/65">
+                  <li className="flex items-center gap-2">
+                    <Phone className="h-4 w-4 text-gold shrink-0" />
+                    <span>+1 (279) 259-5148</span>
                   </li>
-
-                  <li>
-                    <p className="font-semibold text-white">Washington State Office</p>
-                    <p>Covington, WA, USA</p>
-                    <div className="mt-1 flex items-center gap-2">
-                      <Phone className="h-4 w-4 text-gold" />
-                      <span>+1 (253) 592-3757</span>
-                    </div>
-                  </li>
-
-                  <li>
-                    <p className="font-semibold text-white">Tanzania Office</p>
-                    <p>Upanga, Dar es Salaam, Tanzania</p>
-                    <div className="mt-1 flex items-center gap-2">
-                      <Phone className="h-4 w-4 text-gold" />
-                      <span>+255 762 550 779</span>
-                    </div>
+                  <li className="flex items-center gap-2">
+                    <Mail className="h-4 w-4 text-gold shrink-0" />
+                    <span>info@eastlinkuslogistics.com</span>
                   </li>
                 </ul>
+
+                {/* Offices List */}
+                <div>
+                  <h5 className="text-xs font-bold uppercase tracking-widest text-gold/90">
+                    Our Offices
+                  </h5>
+
+                  <ul className="mt-3 space-y-4 text-sm text-white/65">
+                    <li>
+                      <p className="font-semibold text-white">Oregon Office</p>
+                      <p>Gresham, OR, USA</p>
+                      <div className="mt-1 flex items-center gap-2">
+                        <Phone className="h-4 w-4 text-gold shrink-0" />
+                        <span>+1 (279) 259-5148</span>
+                      </div>
+                    </li>
+
+                    <li>
+                      <p className="font-semibold text-white">Washington State Office</p>
+                      <p>Covington, WA, USA</p>
+                      <div className="mt-1 flex items-center gap-2">
+                        <Phone className="h-4 w-4 text-gold shrink-0" />
+                        <span>+1 (253) 592-3757</span>
+                      </div>
+                    </li>
+
+                    <li>
+                      <p className="font-semibold text-white">Tanzania Office</p>
+                      <p>Upanga, Dar es Salaam, Tanzania</p>
+                      <div className="mt-1 flex items-center gap-2">
+                        <Phone className="h-4 w-4 text-gold shrink-0" />
+                        <span>+255 762 550 779</span>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
               </div>
-            </ul>
+            )}
           </div>
+
 
         </div>
 

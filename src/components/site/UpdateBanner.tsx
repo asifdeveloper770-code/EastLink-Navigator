@@ -10,12 +10,12 @@ export function UpdateBanner() {
 
         <div className="flex flex-wrap items-center justify-center gap-2 text-sm font-semibold text-white sm:text-base">
           <span className="text-gold">
-            Next Express Air Freight Departure:
+            Next Air Cargo Departure: 
           </span>
 
           <span className="inline-flex items-center gap-1">
             <Calendar className="h-4 w-4 text-gold" />
-            July 20, 2026
+            10th August
           </span>
 
           {/* <span className="hidden sm:inline text-white/50">•</span>

@@ -54,7 +54,7 @@ EastLink US Logistics LLC is your trusted one-stop solution for shipping cargo, 
               className="inline-flex items-center gap-2 rounded-full bg-navy px-6 py-3.5 text-sm font-bold text-white ring-1 ring-white/15 transition-all border border-navy hover:scale-[1.04] hover:bg-navy-soft"
             >
               <ShoppingBag className="h-4 w-4" />
-              Shop From USA
+              Shop For Me Service
             </Link>
             <Link
               to="/tracking"

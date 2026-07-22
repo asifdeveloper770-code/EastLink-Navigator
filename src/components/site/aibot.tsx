@@ -12,7 +12,7 @@ export default function AIBot() {
         { 
             role: "assistant",
             content:
-                "Welcome to EastLink Logistics! I can help with our shipping services, freight solutions, office locations, and general company information. How may I assist you today?"
+                "Welcome to EastLink US Logistics! I can help with our shipping services, freight solutions, office locations, and general company information. How may I assist you today?"
         },
     ]);
 const [input, setInput] = useState("");
@@ -75,7 +75,7 @@ return (
         {!isOpen && (
             <button
                 onClick={() => setIsOpen(true)}
-                className="flex h-14 w-28 items-center justify-center rounded-full bg-gradient-gold px-3 py-3.5 border border-neutral-800 text-navy font-bold shadow-xl hover:bg-neutral-800 transition-all duration-300 group"
+                className="flex h-12 w-24 items-center justify-center rounded-full bg-gradient-gold px-3 py-3.5 border border-neutral-800 text-navy font-bold shadow-xl hover:bg-neutral-800 transition-all duration-300 group"
             > Chat
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-10 group-hover:scale-110 transition-transform">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M8.625 12a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H8.25m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H12m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0h-.375M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 0 1-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8Z" />

@@ -71,7 +71,7 @@ export function Footer() {
                 <Phone className="h-4 w-4 text-gold" /> +1 (279)259-5148
               </li>
               <li className="flex items-center gap-2 text-sm text-white/65">
-                <Mail className="h-4 w-4 text-gold" /> info@eastlinklogistics.com
+                <Mail className="h-4 w-4 text-gold" /> info@eastlinkuslogistics.com
               </li>
               <div>
                 <h4 className="text-sm font-bold uppercase tracking-widest text-gold">
@@ -116,7 +116,7 @@ export function Footer() {
           <p className="text-xs text-white/50">
             © {new Date().getFullYear()} EastLink US Logistics LLC. All rights reserved.
           </p>
-          <p className="text-xs text-white/50">United States to Eastern &larr; &rarr;  Southern Africa</p>
+          <p className="text-xs text-white/50">United States to &larr; &rarr;  Eastern Southern Africa</p>
         </div>
       </div>
     </footer>
